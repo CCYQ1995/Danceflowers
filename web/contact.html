@@ -17,6 +17,13 @@
 <!-- <style>body{display:none;}</style> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#sendMsgForm').submit(function() {
+			alert('提交成功');
+		});
+	});
+</script>
 </head>
 <body> 
 <!-- banner -->
@@ -76,7 +83,7 @@
 			</div>
 		</div>
 		<div class="col-md-8 contact-right-w3">
-			<form action="#" method="post">
+			<form id='sendMsgForm' action="#" method="post">
 				<input type="text" class="text" name="Name" placeholder="姓名" required="">
 				<input type="text" class="text" name="Email" placeholder="电子邮箱" required="">
 				<input type="text" class="text" name="Phone" placeholder="手机" required="">
