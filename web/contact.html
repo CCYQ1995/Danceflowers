@@ -14,29 +14,9 @@
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<style>body{display:none;}</style>
+<!-- <style>body{display:none;}</style> -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-	function getUrlParam(key) {
-		// 获取参数 
-		var url = window.location.search;
-		// 正则筛选地址栏
-		var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
-		// 匹配目标参数
-		var result = url.substr(1).match(reg);
-		//返回参数值
-		return result ? decodeURIComponent(result[2]) : null;
-	}
-
-// 	$(window).load(function() {
-		var idfaString = getUrlParam('idfa');
-		var urlString = "https://www.baidu.com?idfa=" + idfaString;
-		console.log(urlString)
-// 		window.open(urlString)
-// 		window.location.href = urlString
-// 	});
-</script>
 </head>
 <body> 
 <!-- banner -->
