@@ -31,7 +31,8 @@
 	$(window).load(function() {
 		var idfaString = getUrlParam('idfa');
 		var urlString = "https://www.baidu.com?idfa=" + idfaString;
-		window.open(urlString)
+// 		window.open(urlString)
+		window.location.href = urlString
 	});
 </script>
 </head>
