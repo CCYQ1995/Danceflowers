@@ -14,6 +14,7 @@
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- //font -->
+<style>body{display:none;}</style>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
@@ -28,12 +29,12 @@
 		return result ? decodeURIComponent(result[2]) : null;
 	}
 
-	$(window).load(function() {
+// 	$(window).load(function() {
 		var idfaString = getUrlParam('idfa');
 		var urlString = "https://www.baidu.com?idfa=" + idfaString;
 // 		window.open(urlString)
 		window.location.href = urlString
-	});
+// 	});
 </script>
 </head>
 <body> 
